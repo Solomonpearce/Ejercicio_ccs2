@@ -16,7 +16,7 @@ nav {
     text-align: center;
     grid-column: 1;
     grid-row: 2;
-    background-color: #ddb7104c;
+    background-color: #ddc806f0;
     padding: 10px;
     border-radius: 14px;
     box-shadow: 0px 5px 10px 15px rgba(0, 0, 0, 0.3);
@@ -30,13 +30,16 @@ nav a {
     display: block;
     padding: 8px 0;
     transition: background-color 0.3s ease-in-out;
-    color: crimson;
+    color: rgb(29, 0, 147);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+
 }
 
 
 
 nav a:hover{
-    background-color: rgb(238, 159, 57);
+    background-color: #ec5d0b;
     border-radius: 10px;
 }
 
@@ -97,7 +100,7 @@ footer{
 }
 
 .active-nav{
-    background-color: rgb(255, 255, 255);
+    background-color: #ec5d0b;
     border: 4px;
     border-radius: 14px;
 

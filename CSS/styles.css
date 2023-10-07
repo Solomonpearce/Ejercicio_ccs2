@@ -9,7 +9,7 @@ body,header,section,footer {
 
 header{
     border-radius: 15px;
-    background-color: #ddb710ae;
+    background-color: #ec5d0b;
     margin-top: 20px;
     text-align: center;
     padding: 20px;
@@ -17,13 +17,13 @@ header{
 }
 
 h1 {
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkblue;
 }
 
 footer{
     border-radius: 15px;
-    background-color: #ddb710ae;
+    background-color: #ec5d0b;
     margin-top: 20px;
     text-align: center;
     padding: 20px;
@@ -33,7 +33,7 @@ footer{
 footer p{
     margin: 0;
     font-size: large;
-    color: rgb(185, 20, 169);
+    color: rgb(13, 13, 234)
 }
 
 a{ 
@@ -71,7 +71,7 @@ a:hover{
 
 }
 
-.overlay1{
+.overlay{
     position: absolute;
     top: 0;
     width: 117%;
@@ -84,73 +84,13 @@ a:hover{
     text-align: center;
     font-weight: bolder;
     transition: opacity 0.4s ease-in-out;
-    
-}
-.overlay2{
-    position: absolute;
-    top: 0;
-    width: 117%;
-    height: 99%; 
-    background-color: rgba(0,0, 0, 0.8);
-    display: none;
-    justify-content: center;
-    justify-items:center;
-    color: whitesmoke;
-    text-align: center;
-    font-weight: bolder;
-    transition: opacity 0.4s ease-in-out;
-    
-
-}
-.overlay3{
-    position: absolute;
-    top: 0;
-    width: 117%;
-    height: 99%; 
-    background-color: rgba(0,0, 0, 0.8);
-    display: none;
-    justify-content: center;
-    justify-items:center;
-    color: whitesmoke;
-    text-align: center;
-    font-weight: bolder;
-    transition: opacity 0.4s ease-in-out;
-    
-
-}
-.overlay4{
-    position: absolute;
-    top: 0;
-    width: 117%;
-    height: 99%; 
-    background-color: rgba(0,0, 0, 0.8);
-    display: none;
-    justify-content: center;
-    justify-items:center;
-    color: whitesmoke;
-    text-align: center;
-    font-weight: bolder;
-    transition: opacity 0.4s ease-in-out;
-    
-
 }
 
-.image:hover .overlay1{
+.image:hover .overlay{
     display: flex;
     cursor: pointer;
 }
-.image:hover .overlay2{
-    display: flex;
-    cursor: pointer;
-}
-.image:hover .overlay3{
-    display: flex;
-    cursor: pointer;
-}
-.image:hover .overlay4{
-    display: flex;
-    cursor: pointer;
-}
+
 .image p{
     margin:auto;
     padding: auto;
